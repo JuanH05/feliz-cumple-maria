@@ -1,4 +1,4 @@
-body {
+.mensajes {
     
         text-align: center;
         background: url('maluma-background.jpg') no-repeat center center/cover;
@@ -82,4 +82,18 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+
+.inicio {
+    text-align: center;
+    background: url('maluma-background.jpg') no-repeat center center/cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Solo el index tendrá esto */
 }
